@@ -105,22 +105,6 @@ class ProfileCard extends StatelessWidget {
 
                     // Notify parent to refresh
                     onProfileUpdated();
-                    /* if (success) {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(
-                            content: TextWidget('Switched to ${profile.name}\'s profile'),
-                          ),
-                        );
-                        
-                        // Notify parent to refresh
-                        onProfileUpdated();
-                      } else {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: TextWidget('Failed to switch profile'),
-                          ),
-                        );
-                      } */
                   },
                 ),
               ),
