@@ -23,12 +23,6 @@ class ProfileModel {
     required this.consultCount,
     this.isCurrentlyInUse = false,
   });
-
-  // Handy method to check if profile is verified
-  bool get isVerified => verificationStatus == VerificationStatus.verified;
-  
-  // Handy method to check if profile is pending
-  bool get isPending => verificationStatus == VerificationStatus.pending;
 }
 
 // Enum to represent the verification status

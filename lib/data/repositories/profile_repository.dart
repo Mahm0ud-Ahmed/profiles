@@ -32,7 +32,7 @@ class ProfileRepository {
         name: 'Matthew Brian',
         svnNumber: 'SVN:123 456 789',
         relationship: 'My Father',
-        avatarUrl: 'https://randomuser.me/api/portraits/men/2.jpg',
+        avatarUrl: 'https://randomuser.me/api/portraits/men/21.jpg',
         verificationStatus: VerificationStatus.unverified,
         connectCount: 0,
         medicineCount: 5,
