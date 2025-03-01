@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
-    
+
 flutter_gen:
   output: lib/config/assets/ # Optional (default: lib/gen/)
   line_length: 120 # Optional (default: 80)
@@ -26,9 +26,7 @@ flutter_gen:
   integrations:
     flutter_svg: true
 
-
 flutter:
   uses-material-design: true
   assets:
-  - assets/
-
+    - assets/
