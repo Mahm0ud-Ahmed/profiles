@@ -96,7 +96,10 @@ class ProfileCard extends StatelessWidget {
                   onSwitchResult: (success) {
                     ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(
-                        content: TextWidget(text: 'Switched to ${profile.name}\'s profile'),
+                        content: TextWidget(
+                          text: 'Switched to ${profile.name}\'s profile',
+                          style: AppTextStyles.labelLarge.copyWith(color: AppColors.textSwitch),
+                        ),
                       ),
                     );
 
