@@ -37,7 +37,7 @@ class ProfileStats extends StatelessWidget {
               null,
               relationship,
             ),
-            
+
             if (connectCount > 0)
               _buildStatItem(
                 context,
@@ -45,7 +45,7 @@ class ProfileStats extends StatelessWidget {
                 connectCount.toString(),
                 'Connect',
               ),
-            
+
             // Medicine stat
             _buildStatItem(
               context,
@@ -53,7 +53,7 @@ class ProfileStats extends StatelessWidget {
               medicineCount.toString(),
               'Medicine',
             ),
-            
+
             // Consult stat
             _buildStatItem(
               context,

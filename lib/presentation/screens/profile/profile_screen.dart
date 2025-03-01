@@ -68,7 +68,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
         itemCount: _profiles.length,
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
         maxCrossAxisExtent: 420,
-        // mainAxisExtent: _calculateHeight(context),
         mainAxisExtent: 190,
       ),
         itemBuilder: (context, index) {
