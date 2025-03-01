@@ -88,13 +88,10 @@ class AppTheme {
         backgroundColor: AppColors.cardBackground,
         selectedItemColor: AppColors.primary,
         unselectedItemColor: AppColors.bottomNavInactive,
-        // selectedLabelStyle: AppTextStyles.,
         showUnselectedLabels: true,
         type: BottomNavigationBarType.fixed,
         elevation: 8,
       ),
     );
   }
-
-  // Could add dark theme here if needed
 }
