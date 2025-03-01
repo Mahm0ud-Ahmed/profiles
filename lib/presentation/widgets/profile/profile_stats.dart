@@ -25,13 +25,11 @@ class ProfileStats extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      scrollDirection: Axis.horizontal,
-      padding: EdgeInsets.symmetric(horizontal: AppDimensions.paddingS),
+    return FittedBox(
       child: SizedBox(
-        width: constraints.maxWidth - (AppDimensions.paddingS * 2 + AppDimensions.cardMargin * 4),
+        width: constraints.maxWidth,
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             _buildStatItem(
               context,
@@ -39,7 +37,7 @@ class ProfileStats extends StatelessWidget {
               null,
               relationship,
             ),
-
+            
             if (connectCount > 0)
               _buildStatItem(
                 context,
@@ -47,7 +45,7 @@ class ProfileStats extends StatelessWidget {
                 connectCount.toString(),
                 'Connect',
               ),
-
+            
             // Medicine stat
             _buildStatItem(
               context,
@@ -55,7 +53,7 @@ class ProfileStats extends StatelessWidget {
               medicineCount.toString(),
               'Medicine',
             ),
-
+            
             // Consult stat
             _buildStatItem(
               context,
